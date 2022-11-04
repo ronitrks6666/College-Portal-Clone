@@ -1,0 +1,285 @@
+*{margin:0; padding:0;
+    box-sizing: border-box;}
+    
+    
+    
+    
+    
+    
+    
+    @media screen and (max-width : 770px){
+        /* .secondcol{
+            margin-top:-2vw;
+            background-color: black;
+        } */
+    
+       
+    }
+    
+    
+    @keyframes tcboxanimation{
+        0%{border-color: black; }
+        25%{border-color: blue;}
+        50%{border-color: turquoise;}
+        75%{border-color: brown;}
+        100%{border-color: yellow;}
+    
+    
+    }
+    
+    
+
+    .secondcol{
+        /* border: black solid 2px; */
+       display: flex;
+       flex-direction: row;
+       margin-top: 0.5vw;
+       height: 5vw;
+    }
+    
+    .sc1{
+        padding-left: 0.3vw;
+        width: 11vw;
+        margin-left: 0.5vw;
+    }
+    
+    .sc2{
+        
+        font-size: 4.2vw;
+        font-weight: bold;
+        text-align: center;
+        color: #5680e9;
+        text-shadow: 1px 1px 3px black;
+        margin-left: 3vw;
+    }
+    
+    .srmlogoresponsive{
+        padding-top: 4%;
+        height:95% ;
+        width:100%;
+    }
+    
+    .thirdcol{
+        margin-top: 0.5vw;
+        /* border: red 2px solid; */
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: #48a8d8;    
+        height:1.75vw;
+    }
+    
+    .thirdcol a{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+    }
+    
+    .tc1{
+        border: black 1px solid;
+        padding-right: 0.2vw;
+        margin-right: 0.2vw;
+        margin-left: 2.5vw;
+        margin-bottom: 0.5vw;
+        height: 1.75vw;
+        border-left: white solid 1px;
+        border-right: white solid 1px;
+        font-size: 1.3vw;
+        color: white;
+        background-color: #1271a0;
+        animation-name: tcboxanimation;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+         animation-direction: alternate; 
+    
+    }
+    .tc1:hover{
+        background-color: #1271a0;
+        
+    }
+    .tc1 a{
+        color:white;
+    }
+    /* .tc1 a:hover{
+      color:black;
+    } */
+    
+    .tc2{
+        border-right: white solid 1px;
+        padding-right: 0.2vw;
+        margin-right: 0.2vw;
+        font-size: 1.3vw;
+        height: 1.75vw;
+    }
+    .tc2:hover{
+        background-color: #1271a0; 
+    }
+    /* .tc2 a:hover{  
+       color:black;
+    } */
+    .tc2:hover .dropdown{
+        display: block;
+    }
+    
+    
+    
+    .tc3{
+        padding-right: 0.2vw;
+        margin-right: 0.2vw;
+        font-size: 1.3vw;
+        border-right: white solid 1px;
+        text-transform: uppercase;
+        height: 1.75vw;
+     
+    }
+    .tc3:hover{
+        background-color: #1271a0; 
+    }
+    /* .tc3 a:hover{   
+        color:black;
+    } */
+    .tc3:hover .dropdown{
+        display: block;
+    }
+    
+    .tc5{
+        padding-right: 0.2vw;
+        margin-right: 0.2vw;
+        font-size: 1.3vw;
+        border-right: white solid 1px;
+        text-transform: uppercase;
+        height: 1.75vw;
+        border: black 1px solid;
+        background-color: #1271a0;
+        animation-name: tcboxanimation;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+         animation-direction: alternate; 
+
+    }
+    .tc5:hover{
+        background-color: #1271a0; 
+    }
+    /* .tc5 a:hover{  
+        color:black;
+    } */
+    .tc5:hover .dropdown{
+        display: block;
+    }
+    
+    
+    .tc6{
+        padding-right: 0.2vw;
+        margin-right: 0.2vw;
+        font-size: 1.3vw;
+        border-right: white solid 1px;
+        text-transform: uppercase;
+        height: 1.75vw;
+    }
+    .tc6:hover{
+        background-color: #1271a0; 
+    }
+    
+    .tc6:hover .dropdown{
+        display: block;
+    }
+    
+    
+    .dropdown{
+        display: none;
+        background-color: #90ccf4;
+        margin-top:-0.05vw;
+        width:fit-content;
+        padding: 00.2vw;
+        border: black 1px solid;
+        border-top: none;
+        border-radius: 5px 3px 3px 5px;
+        position: absolute;
+        z-index: 1;
+        box-shadow: 0px 2px 3px 0px black;
+        font-size: 1.2vw;
+    }
+    .dropdownn:hover{
+        background-color: #1271a0; 
+    }
+    .dropdown a{
+        display: block;
+        color: white;
+    }
+    .dropdown a:hover{
+        background-color: #48a2cf; 
+    
+    }
+    
+    
+    .tc4{
+        padding-right: 1vw;
+        margin-right: 1vw;
+        font-size: 1.2vw;
+        margin-left: 20vw;
+        display: inline;
+       
+    }
+    .tc4 a:hover{
+        color: rgb(240, 23, 23);
+    }
+    .tc4 a{
+        color: rgb(20, 20, 70);
+        text-decoration: underline;
+    }
+
+    .maincontent{
+        margin: 3vw 6vw 1vw 5vw;
+        padding: 2vw;
+        text-align: center;
+        background-color: #f6f9fc;
+        height: auto;
+        box-shadow: 1px 1px 13px black;
+    }
+    
+    .cb1tstyle1{ font-size: 1.6vw; color: rgb(62, 109, 236);}
+    .cb1tstyle2{ font-size: 2.2vw; color: red;}
+    
+
+.cb2{
+    margin: 1vw;
+}
+.cb2text{
+    margin: 1vw;
+    font-size: 1.3vw;
+    color: rgb(66, 66, 160);
+    text-decoration: underline;
+}
+#maintable{
+    border: 2px rgb(15, 15, 15) solid;
+    margin-left: 5%;
+    width: 90%;
+}
+#maintable th{
+    padding:1vw;
+    border: 2px black solid;
+    font-size: 2vw;
+    font-weight: 600;
+    background-color:  #74c4f1;
+}
+
+#maintable td{
+    padding:1vw;
+    font-size: 1.7vw;
+    border: 2px black solid;
+}
+
+
+tr:nth-child(1){background-color: #eeada9;font-weight: 600;}
+td:nth-child(1){background-color: rgb(253, 163, 130);}
+
+
+table, th ,td{
+    border-collapse: collapse;
+}
+
+.contentbox3{
+    margin-top: 4vw;
+    color: rgb(64, 64, 238);
+    font-size: 2vw;
+}
